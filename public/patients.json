@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "age": 34,
+    "gender": "Female",
+    "diagnosis": "Flu",
+    "admissionDate": "2025-04-01"
+  },
+  {
+    "id": 2,
+    "name": "Mark Smith",
+    "age": 47,
+    "gender": "Male",
+    "diagnosis": "Diabetes",
+    "admissionDate": "2025-03-15"
+  },
+  {
+    "id": 3,
+    "name": "Lina Chen",
+    "age": 29,
+    "gender": "Female",
+    "diagnosis": "Asthma",
+    "admissionDate": "2025-04-05"
+  },
+  {
+    "id": 4,
+    "name": "John Doe",
+    "age": 56,
+    "gender": "Male",
+    "diagnosis": "Heart Disease",
+    "admissionDate": "2025-03-20"
+  },
+  {
+    "id": 5,
+    "name": "Emma Brown",
+    "age": 38,
+    "gender": "Female",
+    "diagnosis": "Pneumonia",
+    "admissionDate": "2025-04-10"
+  }
+
+]
