@@ -181,22 +181,13 @@ const handleSave = updatedPatient => {
     patient={viewPatient}
   />
 
-  {/* <EditPatientModal
-    isOpen={isOpen}
-    onClose={() => setIsOpen(false)}
-    patient={editPatient}
-    onSave={updated => {
-      handleSave(updated);
-      setIsOpen(false);
-    }}
-  /> */}
   <EditPatientModal
   isOpen={isOpen}
   onClose={() => setIsOpen(false)}
   patient={editPatient}
   onSave={async (updated) => {
-    await handleSave(updated); // Wait until the save is done
-    setIsOpen(false);          // Then close the modal
+    await handleSave(updated); 
+    setIsOpen(false);          
   }}
 />
 
